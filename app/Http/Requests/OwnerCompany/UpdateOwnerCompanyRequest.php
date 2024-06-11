@@ -27,8 +27,7 @@ class UpdateOwnerCompanyRequest extends FormRequest
             'name' => 'required|string',
             'logo' => [
                 File::image()
-                    ->max(12 * 1024)
-                    ->dimensions(Rule::dimensions()->ratio(15 / 4)),
+                    ->max(12 * 1024),
                 'nullable',
             ],
         ];
