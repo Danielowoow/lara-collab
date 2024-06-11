@@ -21,7 +21,7 @@ export default function RecentlyAssignedTasks({ tasks }) {
   return (
     <Card bg="none">
       <Title order={3} ml={15}>
-        Recently assigned tasks
+      Tareas asignadas recientemente
       </Title>
 
       <Divider my={14} />
@@ -62,7 +62,7 @@ export default function RecentlyAssignedTasks({ tasks }) {
         </ScrollArea>
       ) : (
         <Center my={30}>
-          <EmptyWithIcon title="No tasks" subtitle="You have no assigned tasks" icon={IconSearch} />
+          <EmptyWithIcon title="Sin tareas" subtitle="No tienes tareas asignadas" icon={IconSearch} />
         </Center>
       )}
     </Card>

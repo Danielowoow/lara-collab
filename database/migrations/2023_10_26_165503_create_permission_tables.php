@@ -28,6 +28,12 @@ return new class extends Migration
             $table->bigIncrements('id'); // permission id
             $table->string('name');       // For MySQL 8.0 use string('name', 125);
             $table->string('guard_name'); // For MySQL 8.0 use string('guard_name', 125);
+
+
+
+            
+            $table->string('esname')->nullable(); // Columna adicional para descripción del permiso
+
             $table->timestamps();
 
             $table->unique(['name', 'guard_name']);

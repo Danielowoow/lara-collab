@@ -51,7 +51,7 @@ const UsersIndex = () => {
               radius="xl"
               onClick={() => redirectTo("users.create")}
             >
-              Create
+Crear
             </Button>
           )}
         </Grid.Col>

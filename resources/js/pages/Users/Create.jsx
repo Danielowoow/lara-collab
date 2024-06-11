@@ -41,14 +41,14 @@ const UserCreate = () => {
     <>
       <Breadcrumbs fz={14} mb={30}>
         <Anchor href="#" onClick={() => redirectTo("users.index")} fz={14}>
-          Users
+        Usuarios
         </Anchor>
         <div>Create</div>
       </Breadcrumbs>
 
       <Grid justify="space-between" align="flex-end" gutter="xl" mb="lg">
         <Grid.Col span="auto">
-          <Title order={1}>Create user</Title>
+          <Title order={1}>Crear usuario</Title>
         </Grid.Col>
         <Grid.Col span="content"></Grid.Col>
       </Grid>

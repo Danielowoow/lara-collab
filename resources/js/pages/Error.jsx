@@ -35,7 +35,7 @@ export default function Error({ status }) {
             </Text>
             <Group justify="center">
               <Button size="md" onClick={() => router.get(route("dashboard"))}>
-                Take me back to home page
+              Llévame de regreso a la página de inicio
               </Button>
             </Group>
           </div>

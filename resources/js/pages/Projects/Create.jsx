@@ -60,7 +60,7 @@ const ProjectCreate = ({ dropdowns: { companies, currencies } }) => {
         mb='lg'
       >
         <Grid.Col span='auto'>
-          <Title order={1}>Create project</Title>
+          <Title order={1}>Crear proyecto</Title>
         </Grid.Col>
         <Grid.Col span='content'></Grid.Col>
       </Grid>
@@ -89,8 +89,8 @@ const ProjectCreate = ({ dropdowns: { companies, currencies } }) => {
           />
 
           <Select
-            label='Company requesting work'
-            placeholder='Select company'
+            label='Empresa o cliente que este solicitando el servicio'
+            placeholder='Seleciona'
             required
             mt='md'
             value={form.data.client_company_id}
@@ -117,7 +117,7 @@ const ProjectCreate = ({ dropdowns: { companies, currencies } }) => {
             mt='xl'
           >
             <BackButton route='projects.index' />
-            <ActionButton loading={form.processing}>Create</ActionButton>
+            <ActionButton loading={form.processing}>Crear</ActionButton>
           </Group>
         </form>
       </ContainerBox>

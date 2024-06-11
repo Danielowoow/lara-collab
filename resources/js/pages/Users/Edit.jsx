@@ -44,14 +44,14 @@ const UserEdit = () => {
     <>
       <Breadcrumbs fz={14} mb={30}>
         <Anchor href="#" onClick={() => redirectTo("users.index")} fz={14}>
-          Users
+        Usuarios
         </Anchor>
         <div>Edit</div>
       </Breadcrumbs>
 
       <Grid justify="space-between" align="flex-end" gutter="xl" mb="lg">
         <Grid.Col span="auto">
-          <Title order={1}>Edit user</Title>
+          <Title order={1}>Editar usuario</Title>
         </Grid.Col>
         <Grid.Col span="content"></Grid.Col>
       </Grid>
@@ -80,7 +80,7 @@ const UserEdit = () => {
                 error={form.errors.avatar}
               />
               <Text size="xs" c="dimmed" mt="sm">
-                If no image is uploaded we will try to fetch it via{" "}
+              Si no se carga ninguna imagen, intentaremos recuperarla a través de{" "}
                 <Anchor href="https://unavatar.io" target="_blank" opacity={0.6}>
                   unavatar.io
                 </Anchor>{" "}

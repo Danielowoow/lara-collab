@@ -55,10 +55,10 @@ export default function Notifications() {
 
           <Menu.Dropdown miw={340} maw={400} p={12}>
             <Group justify="space-between" m={10} ml={15}>
-              <Title order={4}>Notifications</Title>
+              <Title order={4}>Notificaciones</Title>
               {unreadCount > 0 && (
                 <UnstyledButton fz={11} onClick={markAllAsRead} className={classes.link}>
-                  Mark all as read
+                 marcar todo como leido
                 </UnstyledButton>
               )}
             </Group>
@@ -104,7 +104,7 @@ export default function Notifications() {
               my={6}
               className={classes.link}
             >
-              View all my notifications
+              Ver todas mis notificaciones
             </UnstyledButton>
           </Menu.Dropdown>
         </Indicator>

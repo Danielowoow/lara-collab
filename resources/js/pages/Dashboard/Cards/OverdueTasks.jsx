@@ -21,7 +21,7 @@ export default function OverdueTasks({ tasks }) {
   return (
     <Card bg="none">
       <Title order={3} ml={15}>
-        Overdue tasks
+      Tareas atrasadas
       </Title>
 
       <Divider my={14} />
@@ -62,7 +62,7 @@ export default function OverdueTasks({ tasks }) {
         </ScrollArea>
       ) : (
         <Center my={30}>
-          <EmptyWithIcon title="All done!" subtitle="You have no overdue tasks" icon={IconRocket} />
+          <EmptyWithIcon title="¡Todo listo!" subtitle="No tienes tareas atrasadas" icon={IconRocket} />
         </Center>
       )}
     </Card>
